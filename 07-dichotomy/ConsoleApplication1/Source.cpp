@@ -2,6 +2,7 @@
 #include <string>
 
 int main() {
+	setlocale(LC_ALL, "rus");
 	int a=50, b=0, c=50, k=0;
 	std::cout << "Задумайте число N от 1 до 100, а я угадаю!\n";
 	do {
