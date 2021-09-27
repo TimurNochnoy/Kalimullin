@@ -9,7 +9,7 @@ int main() {
 		if(std::cin.fail()) {
 	        std::cin.clear();
 	        std::cin.ignore(10000, '\n');
-	        std::cout << "Ошибка! Повторите ввод.\n";
+	        std::cout << "Error! Re-enter.\n";
 	    }
 		else {
 			if (a >= 0 && (a - int(a) == 0) && a <= 100000) {
@@ -26,7 +26,7 @@ int main() {
 				}
 			}
 			else {
-				std::cout << "Ошибка! Повторите ввод.\n";
+				std::cout << "Error! Re-enter.\n";
 			}
 	    }
 	} while (fl == 0);

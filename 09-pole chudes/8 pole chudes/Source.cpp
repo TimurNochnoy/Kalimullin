@@ -3,7 +3,7 @@
 #include <string>
 
 int main() {
-	std::cout << "Введите слово: ";
+	std::cout << "Enter a word: ";
 	std::string s;
 	std::cin >> s;
 	int l=0;
@@ -14,7 +14,7 @@ int main() {
 	};
 	std::cout << su << "\n";
 	do {
-		std::cout << "Введите букву:";
+		std::cout << "Enter a letter: ";
 		char a;
 		std::cin >> a;
 		char f='!';
@@ -25,11 +25,11 @@ int main() {
 			};
 		};
 		if (f != '!') {
-			std::cout << "Есть такая буква!"<< "\n";
+			std::cout << "There is such a letter!"<< "\n";
 			std::cout << su << "\n";
 		}
 		else {
-			std::cout << "Нет такой буквы!\n";
+			std::cout << "There is no such letter!\n";
 			std::cout << su << "\n";
 		}
 	} while (s != su);

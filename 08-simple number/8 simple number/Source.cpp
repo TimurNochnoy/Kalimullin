@@ -4,7 +4,7 @@
 int main() {
 	double a = 0;
 	int i = 0, f = 0;
-	std::cout << "Введите натуральное число: ";
+	std::cout << "Enter a natural number: ";
 	if (std::cin >> a) {
 		if ((a > 0) && (a - int(a) == 0)) {
 			for (i=2; i <= a/2; i++) {
@@ -13,14 +13,14 @@ int main() {
 				}
 			}
 			if (f == 0) {
-				std::cout << "Это простое число!" << "\n";
+				std::cout << "It's a prime number!" << "\n";
 			}
 			else {
-				std::cout << "Это составное число!" << "\n";
+				std::cout << "This is a composite number!" << "\n";
 			}
 		}
 		else {
-			std::cout << "Ошибка!" << "\n";
+			std::cout << "Error!" << "\n";
 		}
 	}
 	else {

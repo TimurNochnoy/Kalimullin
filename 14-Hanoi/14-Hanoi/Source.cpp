@@ -18,7 +18,7 @@ void hanoi(int N, int start, int buff, int end)
 int main()
 {
 	int N=3;
-	std :: cout << "¬ведите N: ";
+	std :: cout << "Enter N: ";
 	std :: cin >> N;
     hanoi(N, 1, 2, 3);
     return 0;

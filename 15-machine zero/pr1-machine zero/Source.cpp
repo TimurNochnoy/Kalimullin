@@ -60,26 +60,26 @@ int main() {
 	sumld = zld + eld;
 	difld = eld - zld;
 	
-	std::cout << "машинный 0 float: " << z << "\n";
-	std::cout << "машинная бесконечность + float: " << inftop << "\n";
-	std::cout << "машинная бесконечность - float: " << infbottom << "\n";
-	std::cout << "машинный эпсилон float: " << e << "\n";
-	std::cout << "сумма машинного 0 и эпсилон float: " << sum << "\n";
-	std::cout << "разность машинного 0 и эпсилон float: " << dif << "\n";
+	std::cout << "machine 0 float: " << z << "\n";
+	std::cout << "machine infinity + float: " << inftop << "\n";
+	std::cout << "machine infinity - float: " << infbottom << "\n";
+	std::cout << "machine epsilon float: " << e << "\n";
+	std::cout << "sum of machine 0 and epsilon float: " << sum << "\n";
+	std::cout << "difference of machine 0 and epsilon float: " << dif << "\n";
 	
 	
-	std::cout << "машинный 0 double: " << zd << "\n";
-	std::cout << "машинная бесконечность + double: " << inftopd << "\n";
-	std::cout << "машинная бесконечность - double: " << infbottomd << "\n";
-	std::cout << "машинный эпсилон double: " << ed << "\n";
-	std::cout << "сумма машинного 0 и эпсилон double: " << sumd << "\n";
-	std::cout << "разность машинного 0 и эпсилон double: " << difd << "\n";
+	std::cout << "machine 0 double: " << zd << "\n";
+	std::cout << "machine infinity + double: " << inftopd << "\n";
+	std::cout << "machine infinity - double: " << infbottomd << "\n";
+	std::cout << "machine epsilon double: " << ed << "\n";
+	std::cout << "sum of machine 0 and epsilon double:  " << sumd << "\n";
+	std::cout << "difference of machine 0 and epsilon double: " << difd << "\n";
 
-	std::cout << "машинный 0 long double: " << zld << "\n";
-	std::cout << "машинная бесконечность + long double: " << inftopld << "\n";
-	std::cout << "машинная бесконечность - long double: " << infbottomld << "\n";
-	std::cout << "машинный эпсилон long double: " << eld << "\n";
-	std::cout << "сумма машинного 0 и эпсилон long double: " << sumld << "\n";
-	std::cout << "разность машинного 0 и эпсилон long double: " << difld << "\n";
+	std::cout << "machine 0 long double: " << zld << "\n";
+	std::cout << "machine infinity + long double: " << inftopld << "\n";
+	std::cout << "machine infinity - long double: " << infbottomld << "\n";
+	std::cout << "machine epsilon long double: " << eld << "\n";
+	std::cout << "sum of machine 0 and epsilon long double: " << sumld << "\n";
+	std::cout << "difference of machine 0 and epsilon long double: " << difld << "\n";
 	return 0;
 }
