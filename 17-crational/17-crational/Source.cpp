@@ -3,7 +3,7 @@
 
 class CRational {
 private:
-	int whole, numerator, denominator;
+	int numerator, denominator;
 public:
 	CRational(int num, int den) {
 		numerator = num;
