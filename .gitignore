@@ -4,19 +4,4 @@
 *.vcxproj
 *.filters
 *.opensdf
-03-hello world/Debug/*
-04-hello world c++ type/Debug/*
-05-hello with name/Debug/*
-06-copy of the string/Debug/*
-07-dichotomy/Debug/*
-08-primes/Debug/*
-09-pole chudes/Debug/*
-11-pole chudes upgrade/Debug/*
-12-factorial/Debug/*
-13-Fibonacci/Debug/*
-14-Hanoy/Debug/*
-15-machine zero/Debug/*
-16-sort/Debug/*
-17-crational/Debug/*
-18-rectangle/Debug/*
-19-FIFO and LIFO/Debug/*
+**/Debug/*
